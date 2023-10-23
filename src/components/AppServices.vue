@@ -76,7 +76,7 @@
                 Design
               </h4>
               <span
-                class="left-[-80px] top-[-43px] absolute uppercase md:text-[52px] text-[42px] lg:text-[78px] leading-[97px] text-white opacity-[2%] font-tertiary font-semibold"
+                class="left-[-80px] md:left-auto top-[-43px] absolute uppercase md:text-[52px] text-[42px] lg:text-[78px] leading-[97px] text-white opacity-[2%] font-tertiary font-semibold"
               >
                 Design
               </span>
