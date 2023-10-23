@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:pt-[195px] pt-[120px] relative">
+  <div class="w-full md:pt-[195px] pt-[120px] relative z-[99999]">
     <img
       class="absolute top-[-100px] right-0"
       alt="img"
@@ -7,12 +7,21 @@
     />
     <div class="mx-auto container px-[20px]">
       <h3
-          class="text-center font-semibold font-tertiary md:text-[48px] text-[36px] leading-[52px] md:leading-[60xp] bg-clip-text text-transparent bg-gradient-to-r from-[#6F95FE] to-[#AA6DFE]"
+        v-animate-onscroll="'animate__animated animate__fadeInDown'"
+        class="text-center font-semibold font-tertiary md:text-[48px] text-[36px] leading-[52px] md:leading-[60xp] bg-clip-text text-transparent bg-gradient-to-r from-[#6F95FE] to-[#AA6DFE]"
       >
         Produkty
       </h3>
       <div class="flex flex-wrap gap-[25px] pt-[42px]">
-        <div v-for="(item, index) in items" :key="index" class="flex-[25%]">
+        <div
+          v-for="(item, index) in items"
+          :key="index"
+          :style="{
+            animationDelay: `0.${2 + index}s`,
+          }"
+          class="flex-[25%]"
+          v-animate-onscroll="'animate__animated animate__fadeInUp'"
+        >
           <AppProductsCard :item="item" />
         </div>
       </div>

@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="bg-[#100f25] h-full w-full overflow-hidden">
-    <div class="w-full relative z-[99999]">
+    <div class="w-full relative z-10 animate__animated animate__slideInRight">
       <img
-        class="absolute top-[-602px] left-0 z-10"
+        class="absolute top-[-602px] left-0"
         alt="img"
         src="./assets/vector1.svg"
       />

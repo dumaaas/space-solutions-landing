@@ -7,12 +7,17 @@
     />
     <div class="flex items-center justify-center mb-10">
       <h3
+        v-animate-onscroll="'animate__animated animate__fadeInDown'"
         class="text-center font-semibold font-tertiary md:text-[48px] text-[36px] leading-[52px] md:leading-[60xp] bg-clip-text text-transparent bg-gradient-to-r from-[#6F95FE] to-[#AA6DFE]"
       >
         Napíste nám
       </h3>
     </div>
-    <div class="flex items-center justify-center">
+    <div
+      class="flex items-center justify-center"
+      style="animation-delay: 0.6s"
+      v-animate-onscroll="'animate__animated animate__fadeIn'"
+    >
       <div
         class="w-full lg:w-[600px] p-2 flex flex-col items-center justify-start gap-4"
       >
@@ -98,14 +103,14 @@
 
         <div class="w-full sm:flex items-center justify-center lg:justify-end">
           <div
-            class="relative ml-auto px-[2px] py-[2px] md:w-[244px] w-[200px]"
+            class="group relative ml-auto px-[2px] py-[2px] md:w-[244px] w-[200px] transform scale-100 hover:scale-105 transition-all ease-in-out duration-300"
           >
             <div
               class="absolute inset-0 bg-gradient-to-r from-[#5E16F9] to-[#7958EF] opacity-90 rounded-[70px]"
             ></div>
 
             <button
-              class="block text-center relative py-[12px] md:py-[14px] px-[18.5px] rounded-[70px] w-full md:text-[20px] md:leading-[24.4px] text-[16px] leading-[24px] font-semibold font-primary bg-[#131429] text-white"
+              class="block text-center group-hover:bg-transparent transition-colors ease-in-out duration-500 relative py-[12px] md:py-[14px] px-[18.5px] rounded-[70px] w-full md:text-[20px] md:leading-[24.4px] text-[16px] leading-[24px] font-semibold font-primary bg-[#131429] text-white"
             >
               Odoslať
             </button>

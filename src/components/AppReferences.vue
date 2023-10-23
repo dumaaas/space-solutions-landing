@@ -1,5 +1,9 @@
 <template>
-  <div class="w-full relative">
+  <div
+    class="w-full relative"
+    v-animate-onscroll="'animate__animated animate__fadeIn'"
+    style="animation-delay: 0.4s"
+  >
     <img
       class="absolute top-[-358px] left-0"
       alt="img"
@@ -19,13 +23,22 @@
         >
           Referencie
         </h3>
-        <div class="flex lg:flex-row flex-col lg:gap-[20px] justify-between gap-[60px] pt-[40px]">
-          <AppReferenceCard
+        <div
+          class="flex lg:flex-row flex-col lg:gap-[20px] justify-between gap-[60px] pt-[40px]"
+        >
+          <div
+            v-animate-onscroll="'animate__animated animate__fadeInUp'"
             v-for="(item, index) in items"
             :key="index"
-            :title="item.title"
-            :description="item.description"
-          />
+            :style="{
+              animationDelay: `0.${4 + index + 2}s`,
+            }"
+          >
+            <AppReferenceCard
+              :title="item.title"
+              :description="item.description"
+            />
+          </div>
         </div>
       </div>
     </div>
