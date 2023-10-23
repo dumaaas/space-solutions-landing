@@ -11,7 +11,7 @@
         <div
           v-animate-onscroll="'animate__animated animate__fadeInLeft'"
           style="animation-delay: 0.5s"
-          class="group cursor-pointer rounded-[40px] flex-[25%] border-y-[1.5px] border-r-[1.5px] hover:border-l-[1.5px] hover:border-r-0 border-purple-900 bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-xl bg-opacity-40"
+          class="group cursor-pointer rounded-[40px] flex-[25%] border-x-[1.5px] border-l-transparent hover:border-l-purple-900 hover:border-r-transparent border-y-[1.5px] border-purple-900 bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-xl bg-opacity-40"
         >
           <div class="overflow-hidden rounded-tl-[40px] rounded-tr-[40px]">
             <div
@@ -35,7 +35,7 @@
         <div
           v-animate-onscroll="'animate__animated animate__fadeIn'"
           style="animation-delay: 1s"
-          class="group cursor-pointer rounded-[40px] flex-[25%] hover:border-l-[1.5px] hover:border-r-0 border-y-[1.5px] border-r-[1.5px] border-purple-900 bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-xl bg-opacity-40"
+          class="group cursor-pointer rounded-[40px] flex-[25%] border-x-[1.5px] border-l-transparent hover:border-l-purple-900 hover:border-r-transparent border-y-[1.5px] border-purple-900 bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-xl bg-opacity-40"
         >
           <div class="overflow-hidden rounded-tl-[40px] rounded-tr-[40px]">
             <div
@@ -60,7 +60,7 @@
         <div
           v-animate-onscroll="'animate__animated animate__fadeInRight'"
           style="animation-delay: 0.7s"
-          class="group cursor-pointer rounded-[40px] flex-[25%] hover:border-l-[1.5px] hover:border-r-0 border-y-[1.5px] border-r-[1.5px] border-purple-900 bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-xl bg-opacity-40"
+          class="group cursor-pointer rounded-[40px] flex-[25%] border-x-[1.5px] border-l-transparent hover:border-l-purple-900 hover:border-r-transparent border-y-[1.5px] border-purple-900 bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-xl bg-opacity-40"
         >
           <div class="overflow-hidden rounded-tl-[40px] rounded-tr-[40px]">
             <div

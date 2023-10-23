@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative z-[9999999] cursor-pointer group border-y-[1.5px] border-r-[1.5px] border-purple-900 bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-xl bg-opacity-40 w-full rounded-[40px] md:p-[22px] md:pb-[50px] p-[12px] pb-[36px] flex flex-col gap-[22px]"
+    class="relative z-[9999999] cursor-pointer group border-x-[1.5px] border-l-transparent hover:border-l-purple-900 hover:border-r-transparent border-y-[1.5px] border-purple-900 bg-gradient-to-r from-gray-700/25 via-gray-800-500/25 to-gray-900/25 shadow-xl bg-opacity-40 w-full rounded-[40px] md:p-[22px] md:pb-[50px] p-[12px] pb-[36px] flex flex-col gap-[22px]"
   >
     <div class="overflow-hidden">
       <div
