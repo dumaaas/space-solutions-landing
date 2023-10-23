@@ -14,15 +14,19 @@
       <div class="flex gap-[88px] flex-col pt-[50px]">
         <div class="relative flex gap-[70px] items-center">
           <div
-            v-animate-onscroll="'animate__animated animate__fadeIn'"
-            style="animation-delay: 1.1s"
-            class="lg:relative absolute lg:opacity-100 opacity-30 z-10 top-[70px] lg:top-auto lg:right-auto right-0 lg:min-w-[330px] lg:min-h-[330px] min-w-[220px] min-h-[220px] rounded-full flex items-center justify-center bg-[#100F25] drop-shadow-2xl shadow-[rgba(146,_75,_238,_0.6)_0px_30px_90px]"
+            class="lg:relative absolute lg:opacity-100 opacity-30 z-10 top-[70px] lg:top-auto lg:right-auto right-0"
           >
-            <img
-              src="../assets/icon1.svg"
-              alt="img"
-              class="lg:w-auto w-[40%]"
-            />
+            <div
+              v-animate-onscroll="'animate__animated animate__fadeIn'"
+              style="animation-delay: 1.1s"
+              class="lg:min-w-[330px] lg:min-h-[330px] min-w-[220px] min-h-[220px] rounded-full flex items-center justify-center bg-[#100F25] drop-shadow-2xl shadow-[rgba(146,_75,_238,_0.6)_0px_30px_90px]"
+            >
+              <img
+                src="../assets/icon1.svg"
+                alt="img"
+                class="lg:w-auto w-[40%]"
+              />
+            </div>
           </div>
           <div
             v-animate-onscroll="'animate__animated animate__fadeInRight'"
@@ -95,28 +99,36 @@
             </button>
           </div>
           <div
-            v-animate-onscroll="'animate__animated animate__fadeIn'"
-            style="animation-delay: 1.1s"
-            class="lg:relative absolute lg:opacity-100 opacity-30 z-10 top-[70px] lg:top-auto lg:left-auto left-0 lg:min-w-[330px] lg:min-h-[330px] min-w-[220px] min-h-[220px] rounded-full flex items-center justify-center bg-[#100F25] drop-shadow-2xl shadow-[rgba(_209,_127,_251,_0.6)_0px_30px_90px]"
+            class="lg:relative absolute lg:opacity-100 opacity-30 z-10 top-[70px] lg:top-auto lg:right-auto right-0"
           >
-            <img
-              src="../assets/icon2.svg"
-              alt="img"
-              class="lg:w-auto w-[40%]"
-            />
+            <div
+              v-animate-onscroll="'animate__animated animate__fadeIn'"
+              style="animation-delay: 1.1s"
+              class="lg:min-w-[330px] lg:min-h-[330px] min-w-[220px] min-h-[220px] rounded-full flex items-center justify-center bg-[#100F25] drop-shadow-2xl shadow-[rgba(_209,_127,_251,_0.6)_0px_30px_90px]"
+            >
+              <img
+                src="../assets/icon2.svg"
+                alt="img"
+                class="lg:w-auto w-[40%]"
+              />
+            </div>
           </div>
         </div>
         <div class="relative flex gap-[70px] items-center">
           <div
-            v-animate-onscroll="'animate__animated animate__fadeIn'"
-            style="animation-delay: 1.1s"
-            class="lg:relative absolute lg:opacity-100 opacity-30 z-10 top-[70px] lg:top-auto lg:right-auto right-0 lg:min-w-[330px] lg:min-h-[330px] min-w-[220px] min-h-[220px] rounded-full flex items-center justify-center bg-[#100F25] drop-shadow-2xl shadow-[rgba(_93,_24,_242,_0.6)_0px_30px_90px]"
+            class="lg:relative absolute lg:opacity-100 opacity-30 z-10 top-[70px] lg:top-auto lg:right-auto right-0"
           >
-            <img
-              src="../assets/icon3.svg"
-              alt="img"
-              class="lg:w-auto w-[40%]"
-            />
+            <div
+              v-animate-onscroll="'animate__animated animate__fadeIn'"
+              style="animation-delay: 1.1s"
+              class="lg:min-w-[330px] lg:min-h-[330px] min-w-[220px] min-h-[220px] rounded-full flex items-center justify-center bg-[#100F25] drop-shadow-2xl shadow-[rgba(_93,_24,_242,_0.6)_0px_30px_90px]"
+            >
+              <img
+                src="../assets/icon3.svg"
+                alt="img"
+                class="lg:w-auto w-[40%]"
+              />
+            </div>
           </div>
           <div
             v-animate-onscroll="'animate__animated animate__fadeInRight'"
